@@ -1,0 +1,12 @@
+@mixin display-flex($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+@mixin background-img($position, $size, $repeat) {
+  background-position: $position;
+  background-size: $size;
+  background-repeat: $repeat;
+}
